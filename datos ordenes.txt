@@ -1,0 +1,40 @@
+Order:
+ items: son de los productos, suma.
+ referralCode: opcional True False
+ Mandar aleatoreamente un  boolean, para ver si se da descuento o no
+ orderNumber =  debe incrementar 1,2,3,4...
+ creationDeviceId = que solo sean (Admin) string vacio
+ factura = true false
+ formaPago = Efectivo
+ totalSinImpuestos = suma de productos aleatoreos. (Generar productos aleatoreos sin extras ni variantes,)
+ totalDescuento = si referalCode si descuento de 10% sino 0
+ currency = USD
+ totalConImpuesto = 
+	codigo= numero en string
+ 	codigoPocentaje = doce en string
+	tarifa = doce en string
+	valor = tarifa base imponible
+
+ pago = 
+	forma = efectivo 
+	total = total
+	plazo = 1
+	unidadTiempo = 1
+
+ invoice = si factura true se llena si False no.
+ 	si hay factura generar un aleatoreo de pasaporte y cedula 
+	tipo identificacion = cedula aleatorea
+	
+ 
+ delivery = 
+	delivery price =  1 
+	referecniaDirecion = Casa esquinera.
+
+RestaurantState= toda menos las canceladas TRUE 
+
+	notPaid = fecha en milisegundos / 0 mejor 0
+	
+
+Si era Delivery todo True y Cero
+
+
